@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 const Square = (props) => {
-  const [value, setValue] = useState(null);
   return (
     <button
       className='square'
